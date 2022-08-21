@@ -1,0 +1,291 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:600);
+
+
+.topnav{
+  background: #777f8c;
+  }
+.topnav .fa{
+  color: #d6c566;
+  font-size: 22px;
+}
+.topnav h6{
+  font-size: 20px;
+  color: #d69c66;
+}
+.topnav a{
+  text-decoration: none;
+}
+
+
+
+.navbar{
+  background: #113A70;
+}
+.navbar .nav-item{
+  padding-left: 1em;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+    padding: 8px;
+    border-radius: 2px;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    background:#085CA5;
+}
+
+
+
+.dropdown{
+    border-radius:5px;
+    border:0;
+    margin-bottom: ;
+}
+.dropdown-menu{
+    background: #113A70;
+    border:0;
+    top: 97%;
+    border-radius:0px 0px 5px 5px;
+}
+.dropdown-item:hover{
+    background:#085ca5;
+    color:#fff;
+}
+.dropdown-menu a{
+    color:#fff;
+}
+.navbar .nav-item .nav-link{
+    color:#eee !important;
+}
+
+
+
+#showcase{
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+.carousel-item{
+  height: 450px;
+  width: 100%;
+}
+.carousel-img-1{
+  background: url('../img/image1.jpeg');
+  background-size: cover;
+}
+.carousel-img-2{
+  background: url('../img/image2.jpeg');
+  background-size: cover;
+}
+.carousel-img-3{
+  background: url('../img/image3.jpeg');
+  background-size: cover;
+}
+.carousel-img-4{
+  background: url('../img/people.jpeg');
+  background-size: cover;
+}
+.carousel-img-5{
+  background: url('../img/image5.jpeg');
+  background-size: cover;
+}
+
+
+
+
+#animation {
+  font-family: 'Open Sans', 'sans-serif';
+  color: #cecece;
+  background: #0b92e8;
+  height: 100px;;
+}
+.item-1
+{
+  position: relative;
+   display: block;
+   width: 60%;
+  font-size: 1.5em;
+ 	animation-duration: 15s;
+ 	animation-timing-function: ease-in-out;
+ 	animation-iteration-count: infinite;
+}
+.item-1{
+	animation-name: anim-1;
+}
+
+
+
+
+/* Style the links inside the sidenav */
+#mySidenav{
+  opacity: 0.7;
+}
+#mySidenav a {
+  position: absolute; /* Position them relative to the browser window */
+  left: -98px; /* Position them outside of the screen */
+  transition: 0.3s; /* Add transition on hover */
+  padding-top: 15px;
+  padding-bottom: 15px; /* 15px padding */
+  width: 115px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 13px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+
+#mySidenav a:hover {
+  left: 0; /* On mouse-over, make the elements appear as they should */
+}
+
+/* The about link: 20px from the top with a green background */
+#about {
+  top: 300px;
+  background-color: #4CAF50;
+  color: #fff;
+}
+#mySidenav .fa{
+  font-size: 20px;
+  float:right;
+
+
+}
+
+
+
+
+
+
+
+
+@keyframes cursor {
+  from, to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #fff;
+  }
+}
+@keyframes typing {
+  from {
+    width: 100%;
+  }
+  90%, to {
+    width: 0;
+  }
+}
+@keyframes slide {
+  33.3333333333% {
+    font-size: 18px;
+    letter-spacing: 3px;
+  }
+  to {
+    font-size: 0;
+    letter-spacing: 0;
+  }
+}
+.typing-slider {
+  font-family: Consolas, monospace;
+  font-weight: bold;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.typing-slider p {
+  position: relative;
+  display: inline;
+  font-size: 0;
+  letter-spacing: 0;
+  animation: slide 3s step-start infinite;
+}
+
+.typing-slider p::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border-left: 3px solid black;
+  background-color: #17A2B8;
+  animation: typing 1s infinite, cursor 1s infinite;
+}
+
+.typing-slider p:nth-child(1) {
+  animation-delay: 0s;
+}
+.typing-slider p:nth-child(1)::after {
+  animation-delay: 0s;
+  animation-timing-function: steps(16), step-end;
+}
+
+.typing-slider p:nth-child(2) {
+  animation-delay: 1s;
+}
+.typing-slider p:nth-child(2)::after {
+  animation-delay: 1s;
+  animation-timing-function: steps(23), step-end;
+}
+
+.typing-slider p:nth-child(3) {
+  animation-delay: 1s;
+}
+.typing-slider p:nth-child(3)::after {
+  animation-delay: 1s;
+  animation-timing-function: steps(12), step-end;
+}
+
+
+
+
+.card .card-body .btn{
+  border-radius: 5px;
+  border: 1px solid #DCE1E8;
+  padding-left: 80px;
+  padding-right: 80px;
+
+}
+.card .card-header:hover{
+  background: #6C757D;
+  color: #fff;
+}
+.model .btn{
+  border-radius: 5px;
+}
+
+
+
+
+#applyonline .btn{
+  border-radius: 5px;
+}
+.form-control{
+  border-radius: 3px;
+}
+.modal .btn{
+  border-radius: 3px;
+}
+
+
+
+#footer-section a{
+  text-decoration: none;
+}
+#footer-section p{
+  color: #ABD678;
+}
+
+
+
+
+@keyframes anim-1 {
+	0%, 8.3% { left: -100%; opacity: 0; }
+  8.3%,25% { left: 25%; opacity: 1; }
+  33.33%, 100% { left: 110%; opacity: 0; }
+}
+@media(max-width: 767px){
+  .navbar .nav-item{
+    padding-left: 0em !important;
+  }
+}
+@media(max-width: 767px){
+  .item-1{
+    font-size: 1.1em;
+  }
+}
